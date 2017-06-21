@@ -1,6 +1,6 @@
 ---
 title: Macbook Pro Retina 15 I7 2.7ghz 16gb 512gb
-image_path: /img/macbook15.jpg
+image_path: img/macbook15.jpg
 status: sold
 value: Vendido
 ---

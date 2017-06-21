@@ -1,6 +1,6 @@
 ---
 title: Nintendo Wii Desbloqueado
-image_path: /img/nintendo_wii.jpg
+image_path: img/nintendo_wii.jpg
 status: price
 value: R$ 350
 ---

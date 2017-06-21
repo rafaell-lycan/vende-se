@@ -1,6 +1,6 @@
 ---
 title: Playstation 3 250gb c/ 2 Controles
-image_path: /img/ps3.jpg
+image_path: img/ps3.jpg
 status: price
 value: R$ 800
 ---

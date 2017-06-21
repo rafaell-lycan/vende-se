@@ -1,6 +1,6 @@
 ---
 title: Volkswagen Fox Rock in Rio 1.6 2016 - 18.000 KM
-image_path: /img/vw_fox.jpg
+image_path: img/vw_fox.jpg
 status: sold
 value: Vendido
 ---

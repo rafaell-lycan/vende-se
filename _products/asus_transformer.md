@@ -1,6 +1,6 @@
 ---
 title: Tablet Asus Eee Pad Transformer Tf101 + Dock
-image_path: /img/asus_transformer.jpg
+image_path: img/asus_transformer.jpg
 status: price
 value: R$ 700
 ---

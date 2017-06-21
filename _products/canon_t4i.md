@@ -1,6 +1,6 @@
 ---
 title: Canon T4i cm lentes 18-135 e 50mm f/1.8 STM.
-image_path: /img/canon_t4i.jpg
+image_path: img/canon_t4i.jpg
 status: sold
 value: Vendido
 ---

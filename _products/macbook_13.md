@@ -1,6 +1,6 @@
 ---
 title: Macbook Pro Retina 13 I5 2.5ghz 8gb 256gb
-image_path: /img/macbook13.jpg
+image_path: img/macbook13.jpg
 status: sold
 value: Vendido
 ---

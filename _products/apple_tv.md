@@ -1,6 +1,6 @@
 ---
 title: Apple Tv 3ª Geração
-image_path: /img/apple_tv.jpg
+image_path: img/apple_tv.jpg
 status: price
 value: R$ 350
 ---

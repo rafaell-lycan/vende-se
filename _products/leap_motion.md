@@ -1,6 +1,6 @@
 ---
 title: Leap Motion Controller
-image_path: /img/leap_motion.jpg
+image_path: img/leap_motion.jpg
 status: price
 value: R$ 250
 ---

@@ -1,6 +1,6 @@
 ---
 title: Volante Logitech Driving Force GT
-image_path: /img/logitech.jpg
+image_path: img/logitech.jpg
 status: price
 value: R$ 450
 ---

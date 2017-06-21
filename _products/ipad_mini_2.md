@@ -1,6 +1,6 @@
 ---
 title: Ipad Mini 2 Retina 32gb
-image_path: /img/ipad_mini.jpg
+image_path: img/ipad_mini.jpg
 status: sold
 value: Vendido
 ---
