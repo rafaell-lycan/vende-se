@@ -6,4 +6,4 @@ value: R$ 800
 ---
 Playstation 3 Slim, modelo com 250GB com os 2 controles originais. Destravado v. 4.80; Ele já esta com o multiMAN instalado e alguns jogos também.
 
-PS: Ainda tenho a caixa.
+PS: Tenho a caixa.

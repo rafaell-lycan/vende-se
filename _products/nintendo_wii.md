@@ -4,4 +4,11 @@ image_path: img/nintendo_wii.jpg
 status: price
 value: R$ 350
 ---
-Nintendo Wii Desbloqueado, acompanha 1 par de Remote e Nunchuck; Wii Sports Original; 10 jogos paralelos; Possui um arranhado na lateral; Possui caixa cabos e manual; Guitarra para jogar Guitar Hero e Tapete de dança.
+Nintendo Wii Desbloqueado, possui um pequeno arranhado na lateral.
+
+Acompanha:
+
+- 1 par de Remote e Nunchuck
+- Wii Sports Original e alguns jogos paralelos
+- Guitarra para jogar Guitar Hero e Tapete de dança.
+- Caixa cabos e manual
