@@ -1,0 +1,188 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+// Colours
+$white: #fff;
+$blue: #2996d6;
+$cyan: #7ad2ea;
+$red: #f2461c;
+$text-color: #0a2e3d;
+
+$default-font: 'PT Serif', Cambria, Georgia, Times, 'Times New Roman', serif;
+$heading-font: 'PT Sans', sans-serif;
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main { display: block; }
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+  font: {
+    weight: 400;
+    size: 16px;
+    family: $default-font;
+  }
+  line-height: 1.5;
+  color: $text-color;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  //background: #f1f2f1;
+  font: 1em/1.5em $default-font;
+  padding: 2.5em 0;
+}
+
+@media screen and (min-width: 40rem) {
+  body {
+    font-size: 1.2em;
+    padding: 0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: bottom;
+  border-radius: 3px;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+input, textarea, button, a {
+  transition: 0.2s color ease,
+              0.2s background ease;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+ul,
+ol {
+  margin: 0 0 15px;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+}
+
+a {
+  color: inherit;  
+  text-decoration: none;
+  border-bottom: 1px solid $cyan;
+  transition: all 300ms ease;
+
+  &:active, &:focus, &:hover {
+    color: $red;
+    border-bottom-color: $red;
+    outline: 0;
+  }
+}
+
+/* ==========================================================================
+   Typography styles
+   ========================================================================== */
+
+h1, h2, h3, h4, h5 {
+  font-family: $heading-font;
+  margin: 1em 0;
+}
+h1, .alpha {
+  font-size: 32px;
+  line-height: 48px;
+  margin: 56px 0 48px 0;
+}
+
+h2, .beta {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+h3, .gamma {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+h4, .delta {
+  font-size: 20px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  line-height: 24px;
+}
+
+h5, .epsilon {
+  font-size: 16px;
+}
+
+h6, .zeta {
+  font-size: 16px;
+}
+
+p {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+p + h2,
+p + h3 {
+  margin-top: 48px;
+}

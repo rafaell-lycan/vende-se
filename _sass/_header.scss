@@ -1,0 +1,20 @@
+.header {
+
+    .center {
+        padding: 0 0 3rem;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid #ccc;
+    }
+
+    h1 {
+        font-size: 3em;
+        color: darken($red, 5%);
+        font-family: $default-font;
+        text-transform: uppercase;
+    }
+
+    h5 {
+        font-weight: normal;
+        color: gray;
+    }
+}

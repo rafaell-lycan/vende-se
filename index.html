@@ -1,0 +1,37 @@
+---
+layout: base
+---
+<section itemscope itemtype="http://schema.org/Store">
+  
+  {% include header.html %}
+  
+  <div id="products" class="products container">
+    <h1 class="center">Produtos</h1>
+
+    <ul class="product-list" itemscope itemtype="http://schema.org/ItemList">
+      <!-- Coming available -->
+      {% assign group_products = site.products | group_by: 'status' | sort: 'title' %}
+      {% for products in group_products %}
+        {% for product in products.items limit: 25 %}
+        <li class="product" itemprop="itemListElement" itemtype ="http://http://schema.org/Product">
+          <figure class="product__picture">
+            <img src="{{ product.image_path }}" alt="{{ product.title }}" itemprop="image">
+            <figcaption class="{{ product.status }} tag" itemprop="price">{{ product.value }}</figcaption>
+          </figure>
+          <h3 itemprop="name">{{ product.title }}</h3>
+          {{ product.content }}
+        </li>
+        {% endfor %}
+      {% endfor %}
+      
+      
+    </ul>
+  </div>
+</section>
+
+<footer class="footer container">
+  <p>
+    Envie um email email para <a href="mailto:sonny.webdsg@gmail.com">sonny.webdsg(at)gmail.com</a> 
+    com os itens de interesse para tirar quaisquer dúvidas.
+  </p>
+</footer>
