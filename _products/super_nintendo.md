@@ -1,8 +1,8 @@
 ---
 title: Super Nintendo c/ 2 Controles e Fonte Bivolt
 image_path: img/super_nintendo.jpg
-status: price
-value: R$ 300
+status: sold
+value: Vendido
 ---
 Super Nintendo com 2 controles e cabo AV e 6 Fitas/Cartuchos.
 
